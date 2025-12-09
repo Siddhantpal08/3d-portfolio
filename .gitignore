@@ -1,1 +1,19 @@
+# Node
 node_modules/
+dist/
+build/
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# 3D / export outputs you don't want to track (unless using LFS)
+*.blend1
+*.blend2
+*.tmp

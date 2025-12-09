@@ -1,12 +1,47 @@
-# React + Vite
+# 3D Portfolio — Siddhant Pal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A showcase of my 3D work and interactive portfolio site / WebGL viewer.
 
-Currently, two official plugins are available:
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+Live demo: https://<your-gh-pages-or-hosting-url>  
+(If using GitHub Pages, enable Pages in repo settings and paste the URL here.)
 
-## Expanding the ESLint configuration
+## Screenshots
+![Thumbnail](./assets/thumbnail.png)
+*(More screenshots in `/assets`)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About
+This repository contains the compiled/built version of my 3D portfolio along with source files, models, textures and the site that hosts/embeds the 3D viewer. The portfolio uses:
+- Three.js / Babylon.js (replace with whichever you used)
+- HTML / CSS / JavaScript (or Next.js/React if applicable)
+- Exported models: `.glb`, `.fbx` (some tracked with Git LFS)
+
+## Features
+- Interactive 3D viewer with camera controls and model annotations
+- Responsive layout with gallery and project pages
+- Downloadable model assets (if allowed)
+- Project details, technical breakdown, and contact links
+
+## How to run locally
+### Prerequisites
+- Node.js (v14+ recommended)
+- npm or yarn
+- (Optional) Git LFS for large model files
+
+### Steps
+```bash
+# clone the repo
+git clone https://github.com/Siddhantpal08/3d-portfolio.git
+cd 3d-portfolio
+
+# install dependencies (if a JS project)
+npm install
+# or
+yarn
+
+# start dev server
+npm run dev
+# or
+yarn dev
