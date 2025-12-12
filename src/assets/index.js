@@ -34,7 +34,7 @@ import trainity from "./company/trainity.png"
 
 
 
-import todo from "./todo.png";
+import todo from "./todo.jpg";
 import jarvis from "./jarvis.png";
 import resume from "./resume.png";
 import video from "./video.png";
