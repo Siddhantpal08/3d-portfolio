@@ -33,9 +33,14 @@ import cognifyz from "./company/cognifyz.png"
 import acmegrade from "./company/acmegrade.png"
 import trainity from "./company/trainity.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+
+import todo from "./todo.png";
+import jarvis from "./jarvis.png";
+import resume from "./resume.png";
+import video from "./video.png";
+import portfolio from "./portfolio.png";
+import mytube from "./mytube/.png";
 
 export {
   logo,
@@ -69,8 +74,10 @@ export {
   cognifyz,
   acmegrade,
   trainity,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  jarvis,
+  todo,
+  video,
+  resume,
+  portfolio,
+  mytube
 };

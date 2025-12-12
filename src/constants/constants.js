@@ -13,7 +13,6 @@ import {
     c,
     php,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -21,12 +20,12 @@ import {
     figma,
     acmegrade,
     trainity,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    jarvis,
+    todo,
+    video,
+    resume,
+    portfolio,
+    mytube
   } from "../assets";
   
   export const navLinks = [
@@ -115,7 +114,7 @@ import {
     },
     {
       name: "MySQL / SQL",
-      icon: mysql, // use your SQL icon if you add one
+      icon: mysql, 
     },
     {
       name: "Git & GitHub",
@@ -127,15 +126,15 @@ import {
     },
     {
       name: "Python",
-      icon: python, // add python icon to your assets first
+      icon: python, 
     },
     {
       name: "C / C++",
-      icon: c, // replace with a proper C++ icon if available
+      icon: c, 
     },
     {
       name: "PHP",
-      icon: php, // replace with your php icon in assets
+      icon: php,
     }
   ];
   
@@ -144,7 +143,7 @@ import {
     {
       title: "Full-stack Developer",
       company_name: "Cognifyz Technologies",
-      icon: /* use the appropriate imported icon variable, e.g. cognifyzIcon */ cognifyz,
+      icon: cognifyz,
       iconBg: "#383E56",
       date: "Jan 2025 - Feb 2025",
       points: [
@@ -157,7 +156,7 @@ import {
     {
       title: "Web Development Intern",
       company_name: "Acmegrade",
-      icon: /* replace with a company icon variable if available */ acmegrade,
+      icon: acmegrade,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Feb 2024",
       points: [
@@ -170,7 +169,7 @@ import {
     {
       title: "Data Analyst",
       company_name: "Trainity",
-      icon: /* replace with a company icon variable if available */ trainity,
+      icon: trainity,
       iconBg: "#383E56",
       date: "Dec 2023 - Mar 2024",
       points: [
@@ -230,9 +229,23 @@ const projects = [
       { name: "pyqt5", color: "blue-text-gradient" },
       { name: "voice", color: "pink-text-gradient" },
     ],
-    image: creator, // replace with a dedicated screenshot in assets when available
+    image: jarvis, 
     source_code_link: "https://github.com/Siddhantpal08/MyJarvis",
   },
+
+  {
+    name: "MyTube — Video Streaming (YouTube-like)",
+    description:
+      "A lightweight video streaming web app inspired by YouTube. Features video upload/streaming UI, search, channel profiles, comments, and client-side recommendations. Built with Next.js for routing and SSR, and an S3/local store for videos (demo uses mock/video placeholders).",
+    tags: [
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "video-streaming", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: mytube,
+    source_code_link: "https://github.com/Siddhantpal08/MyTube",
+  },
+
   {
     name: "Offline Notepad (Tauri + React)",
     description:
@@ -242,9 +255,10 @@ const projects = [
       { name: "react", color: "green-text-gradient" },
       { name: "sqlite", color: "pink-text-gradient" },
     ],
-    image: tripguide, // swap for actual screenshot later
+    image: todo,
     source_code_link: "https://github.com/Siddhantpal08/Advanced/tree/main/notepadx",
   },
+
   {
     name: "3D Portfolio / Desktop Scene",
     description:
@@ -254,9 +268,10 @@ const projects = [
       { name: "nextjs", color: "green-text-gradient" },
       { name: "threejs", color: "pink-text-gradient" },
     ],
-    image: threejs,
+    image: portfolio,
     source_code_link: "https://github.com/Siddhantpal08/3d-portfolio",
   },
+
   {
     name: "Video Editing Guides & Short-film Edits",
     description:
@@ -266,21 +281,10 @@ const projects = [
       { name: "content", color: "green-text-gradient" },
       { name: "portfolio", color: "pink-text-gradient" },
     ],
-    image: jobit,
+    image: video,
     source_code_link: "https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide",
   },
-  {
-    name: "To-Do App (Redux Toolkit)",
-    description:
-      "A small but production-like Todo app using Redux Toolkit, local persistence, theming and an accessible UI — perfect demo of state management skills.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "redux", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/Siddhantpal08/Advanced/tree/main/notepadx",
-  },
+
   {
     name: "Code-4-Tech — Hackathon Project",
     description:
@@ -290,9 +294,10 @@ const projects = [
       { name: "prototype", color: "green-text-gradient" },
       { name: "nodejs", color: "pink-text-gradient" },
     ],
-    image: backend,
+    image: resume,
     source_code_link: "https://github.com/Siddhantpal08/innomatics-resume-analyzer",
   },
 ];
+
 
   export { services, technologies, experiences, testimonials, projects } 
