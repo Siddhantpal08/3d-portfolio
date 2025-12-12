@@ -5,12 +5,10 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## Demo
-Live demo: https://siddhant-pal-portfolio.vercel.app/  
-(If using GitHub Pages, enable Pages in repo settings and paste the URL here.)
+Live demo: https://siddhant-pal-portfolio.vercel.app/
 
 ## Screenshots
-![Thumbnail](./assets/thumbnail.png)
-*(More screenshots in `/assets`)*
+![Thumbnail](src/assets/thumbnail.png)
 
 ## About
 This repository contains the compiled/built version of my 3D portfolio along with source files, models, textures and the site that hosts/embeds the 3D viewer. The portfolio uses:
@@ -21,7 +19,7 @@ This repository contains the compiled/built version of my 3D portfolio along wit
 ## Features
 - Interactive 3D viewer with camera controls and model annotations
 - Responsive layout with gallery and project pages
-- Downloadable model assets (if allowed)
+- Downloadable model assets or can go to sketchfab
 - Project details, technical breakdown, and contact links
 
 ## How to run locally
