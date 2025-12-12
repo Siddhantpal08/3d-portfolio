@@ -1,12 +1,11 @@
 import { Html, useProgress } from "@react-three/drei";
 
-// ✅ CORRECT - This will work inside a <Canvas>
 const CanvasLoader = () => {
   const { progress } = useProgress();
   return (
     <Html
-      as='div' // Renders a div
-      center  // Centers the loader on the screen
+      as='div'
+      center
       style={{
         display: "flex",
         justifyContent: "center",

@@ -5,8 +5,13 @@ import {
     web,
     javascript,
     typescript,
+    cognifyz,
     html,
     css,
+    python,
+    mysql,
+    c,
+    php,
     reactjs,
     redux,
     tailwind,
@@ -14,9 +19,8 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
+    acmegrade,
+    trainity,
     tesla,
     shopify,
     carrent,
@@ -111,7 +115,7 @@ import {
     },
     {
       name: "MySQL / SQL",
-      icon: mongodb, // use your SQL icon if you add one
+      icon: mysql, // use your SQL icon if you add one
     },
     {
       name: "Git & GitHub",
@@ -123,15 +127,15 @@ import {
     },
     {
       name: "Python",
-      icon: figma, // add python icon to your assets first
+      icon: python, // add python icon to your assets first
     },
     {
       name: "C / C++",
-      icon: figma, // replace with a proper C++ icon if available
+      icon: c, // replace with a proper C++ icon if available
     },
     {
       name: "PHP",
-      icon: html, // replace with your php icon in assets
+      icon: php, // replace with your php icon in assets
     }
   ];
   
@@ -140,7 +144,7 @@ import {
     {
       title: "Full-stack Developer",
       company_name: "Cognifyz Technologies",
-      icon: /* use the appropriate imported icon variable, e.g. cognifyzIcon */ starbucks,
+      icon: /* use the appropriate imported icon variable, e.g. cognifyzIcon */ cognifyz,
       iconBg: "#383E56",
       date: "Jan 2025 - Feb 2025",
       points: [
@@ -153,7 +157,7 @@ import {
     {
       title: "Web Development Intern",
       company_name: "Acmegrade",
-      icon: /* replace with a company icon variable if available */ tesla,
+      icon: /* replace with a company icon variable if available */ acmegrade,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Feb 2024",
       points: [
@@ -166,7 +170,7 @@ import {
     {
       title: "Data Analyst",
       company_name: "Trainity",
-      icon: /* replace with a company icon variable if available */ shopify,
+      icon: /* replace with a company icon variable if available */ trainity,
       iconBg: "#383E56",
       date: "Dec 2023 - Mar 2024",
       points: [
@@ -179,97 +183,116 @@ import {
   ];
   
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
+  // --- Replace testimonials (feedbacks) ---
+const testimonials = [
+  {
+    testimonial:
+      "Siddhant turned a rough idea into a lightweight desktop assistant that actually helps our team — thoughtful UI, reliable commands, and great error handling.",
+    name: "Arnav Mehra",
+    designation: "Product Lead",
+    company: "Cognifyz",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+  },
+  {
+    testimonial:
+      "The notepad app Siddhant built for offline use is fast, minimal and exactly what my friend needed. Great attention to detail and usability.",
+    name: "Priya Sharma",
+    designation: "Freelance Designer",
+    company: "Independent",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
+  },
+  {
+    testimonial:
+      "Siddhant's portfolio and short-screen guides helped me understand video-editing basics quickly — clear explanations and practical tips.",
+    name: "Rahul Verma",
+    designation: "Content Creator",
+    company: "Solo Creator",
+    image: "https://randomuser.me/api/portraits/men/58.jpg",
+  },
+  {
+    testimonial:
+      "Delivery-minded developer — shipped a Next.js portfolio, fixed bugs fast and added a contact form that actually works. Good communicator too.",
+    name: "Sneha Gupta",
+    designation: "Recruiter",
+    company: "TechHire",
+    image: "https://randomuser.me/api/portraits/women/65.jpg",
+  },
+];
+
+// --- Replace projects ---
+const projects = [
+  {
+    name: "MyJarvis — Desktop Assistant",
+    description:
+      "A PyQt5-based personal desktop assistant with voice commands, custom status updates, animated UI, and toggles for microphone/control. Built to automate small daily tasks.",
+    tags: [
+      { name: "python", color: "green-text-gradient" },
+      { name: "pyqt5", color: "blue-text-gradient" },
+      { name: "voice", color: "pink-text-gradient" },
+    ],
+    image: creator, // replace with a dedicated screenshot in assets when available
+    source_code_link: "https://github.com/Siddhantpal08/MyJarvis",
+  },
+  {
+    name: "Offline Notepad (Tauri + React)",
+    description:
+      "Cross-platform offline notes app using Tauri + React + SQLite. Minimal UI, fast search, light/dark modes, and a reliable local-first experience for private notes.",
+    tags: [
+      { name: "tauri", color: "blue-text-gradient" },
+      { name: "react", color: "green-text-gradient" },
+      { name: "sqlite", color: "pink-text-gradient" },
+    ],
+    image: tripguide, // swap for actual screenshot later
+    source_code_link: "https://github.com/Siddhantpal08/Advanced/tree/main/notepadx",
+  },
+  {
+    name: "3D Portfolio / Desktop Scene",
+    description:
+      "Interactive 3D hero scene (react-three-fiber + GLTF) integrated into a Next.js portfolio. Focus on smooth camera, responsive layout and accessible fallbacks.",
+    tags: [
+      { name: "react-three-fiber", color: "blue-text-gradient" },
+      { name: "nextjs", color: "green-text-gradient" },
+      { name: "threejs", color: "pink-text-gradient" },
+    ],
+    image: threejs,
+    source_code_link: "https://github.com/Siddhantpal08/3d-portfolio",
+  },
+  {
+    name: "Video Editing Guides & Short-film Edits",
+    description:
+      "A set of concise, practical video-editing guides and short edited reels demonstrating storytelling and pacing — created to help beginners make sharable shorts.",
+    tags: [
+      { name: "video-editing", color: "blue-text-gradient" },
+      { name: "content", color: "green-text-gradient" },
+      { name: "portfolio", color: "pink-text-gradient" },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/Siddhantpal08/Intermediate/tree/main/docs/Video-Editing-Guide",
+  },
+  {
+    name: "To-Do App (Redux Toolkit)",
+    description:
+      "A small but production-like Todo app using Redux Toolkit, local persistence, theming and an accessible UI — perfect demo of state management skills.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "redux", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/Siddhantpal08/Advanced/tree/main/notepadx",
+  },
+  {
+    name: "Code-4-Tech — Hackathon Project",
+    description:
+      "Hackathon submission: a lightweight web tool that automates a repetitive workflow (MVP built in 48 hours). Demonstrates rapid prototyping and teamwork.",
+    tags: [
+      { name: "hackathon", color: "blue-text-gradient" },
+      { name: "prototype", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    image: backend,
+    source_code_link: "https://github.com/Siddhantpal08/innomatics-resume-analyzer",
+  },
+];
+
   export { services, technologies, experiences, testimonials, projects } 
