@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 ## Demo
-Live demo: https://<your-gh-pages-or-hosting-url>  
+Live demo: https://siddhant-pal-portfolio.vercel.app/  
 (If using GitHub Pages, enable Pages in repo settings and paste the URL here.)
 
 ## Screenshots
@@ -14,8 +14,8 @@ Live demo: https://<your-gh-pages-or-hosting-url>
 
 ## About
 This repository contains the compiled/built version of my 3D portfolio along with source files, models, textures and the site that hosts/embeds the 3D viewer. The portfolio uses:
-- Three.js / Babylon.js (replace with whichever you used)
-- HTML / CSS / JavaScript (or Next.js/React if applicable)
+- Three.js 
+- Vite React
 - Exported models: `.glb`, `.fbx` (some tracked with Git LFS)
 
 ## Features
