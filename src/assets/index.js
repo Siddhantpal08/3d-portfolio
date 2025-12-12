@@ -39,7 +39,7 @@ import jarvis from "./jarvis.png";
 import resume from "./resume.png";
 import video from "./video.png";
 import portfolio from "./portfolio.png";
-import mytube from "./mytube/.png";
+import mytube from "./mytube.png";
 
 export {
   logo,
