@@ -28,7 +28,6 @@ import php from "./tech/php.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import cognifyz from "./company/cognifyz.png"
 import acmegrade from "./company/acmegrade.png"
 import trainity from "./company/trainity.png"
